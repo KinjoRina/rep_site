@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052) -->
+<html lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+
+  <title>Carousel Template for Bootstrap</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+  <!---一走る猫-->
+  <link href="./runner.css" rel="stylesheet">
+  <!---一走る猫終わり-->
+  <!---一旦テストその２-->
+  <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+  <!--一旦テストその２終わり-->
+  <!-- Bootstrap core CSS -->
+  <link href="./Visual Studio Code_files/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./Visual Studio Code_files/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">肉球だより</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" id="login" href="#">ログイン <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">会の概要、連絡先</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!---サインインここから-->
+  <form id="login_form">
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10 offset-sm-2">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+  </form>
+  <!---サインインここまで-->
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item">
+        <img class="first-slide" src="photo/publicdomainq-0005629syw.jpg" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption d-none d-md-block text-left">
+            <h1><span class="item_background">ほっとひととき</span></h1>
+            <p><span class="item_background">多忙な日々に、癒し。肉球。</span></p>
+            <p><a class="btn btn-sm btn-info" href="#" role="button"
+                data-anijs="if: mouseover, do: swing animated">今日のにゃんこ</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="second-slide" src="photo/2754779191-cat-637336_1920_(1)-LDr-1280x853-MM-100.jpg" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span class="item_background">猫と和解せよ!!!!!</span></h1>
+            <p><span class="item_background">猫踏んじゃった・・・必ず、仕返しがきます。</span></p>
+            <p><a class="btn btn-sm btn-info" href="#" role="button"
+                data-anijs="if: mouseover, do: bounce animated">厳選！おもしろにゃんこ</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img class="third-slide" src="photo/cat-984097_1920.jpg" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption d-none d-md-block text-right">
+            <h1><span class="item_background">猫と暮らそう</span></h1>
+            <p><span class="item_background">一緒に暮らそう。猫もあなたを探しています。</span></p>
+            <p><a class="btn btn-sm btn-info" href="#" role="button"
+                data-anijs="if: mouseover, do: shake animated">里親、絶賛募集中！</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Marketing messaging and featurettes
+    ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+    <!---runnning_catはじめ-->
+    <div class="container marketing maiking">
+      <img src="photo/illust1132_thumb.gif" class="running_cat" width="3%"
+        data-anijs="if: mouseover, do: fadeOutRightBig animated  before:scrollReveal,after:removeAnim">
+    </div>
+    <!---running_cat終わり-->
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <!---row_titleはじめ-->
+      <div class="row_title"
+        data-anijs="if:scroll,on:window,do:bounceInDown animated, before:scrollReveal,after:removeAnim">
+        <img src="photo/5859.png">
+        <h2 class="test02">今週の New Face！</h2>
+        <img src="photo/5859.png">
+      </div>
+      <!---row_title終わり-->
+
+      <div class="col-lg-4"
+        data-anijs="if:scroll,on:window,do:rotateInDownLeft animated, before:scrollReveal,after:removeAnim">
+        <p class="image_relate">
+          <img class="rounded-circle1 image_01" src="photo/img01/IMG_1107.jpg" alt="Generic placeholder image">
+        </p>
+        <h2 class="container_middle_title">名前：将軍</h2>
+        <p>元気いっぱい「暴れん坊将軍」！やんちゃだけど、面倒見も抜群です！</p>
+        <p><a class="btn btn-secondary" href="#" role="button">詳細はこちら »</a></p>
+        <img src="photo/23.png" class="image_line_01">
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4" data-anijs="if:scroll,on:window,do:flip animated, before:scrollReveal,after:removeAnim">
+        <p class="image_relate"><img class="rounded-circle1 image_02" src="photo/img01/IMGP4990.jpg"
+            alt="Generic placeholder image"></p>
+        <h2 class="container_middle_title">名前：こはく</h2>
+        <p>子猫のこはくは人が大好き！小さくてもトイレのできる賢い子です！</p>
+        <p><a class="btn btn-secondary" href="#" role="button">詳細はこちら »</a></p>
+        <img src="photo/23.png" class="image_line_01">
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4"
+        data-anijs="if:scroll,on:window,do:rotateInUpRight animated, before:scrollReveal,after:removeAnim">
+        <p class="image_relate"><img class="rounded-circle1 image_03" src="photo/img01/cat0106-066.jpg"
+            alt="Generic placeholder image"></p>
+        <h2 class="container_middle_title">名前：和子</h2>
+        <p>大人しくて、ちょっと弱気な和子さん。抱っこが大好きで、人懐っこい子です！</p>
+        <p><a class="btn btn-secondary" href="#" role="button">詳細はこちら »</a></p>
+        <img src="photo/23.png" class="image_line_01">
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+    <!---  <hr class="featurette-divider"> ボーダー-->
+    <div class="row featurette　test-animation"
+      data-anijs="if:scroll,on:window,do:bounceInLeft animated, before:scrollReveal,after:removeAnim">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">肉球だよりの<span class="text-muted">仲間をご紹介!</span></h2>
+        <p class="lead">肉球だよりで飼い主との出会いを心待ちにしているキュートな猫ちゃんたちをご紹介します！</p>
+        <p><a class="btn btn-sm btn-outline-light" href="#" role="button"
+            data-anijs="if: mouseover, do: tada animated">猫ちゃん一覧へ<img src="photo/484d674a01c261b116609b71ef5c1e1e.jpg"
+              height="auto" width="5%" margin="0"></a></p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto image_add" data-src="photo/miagerukijineko171027_TP_V.jpg"
+          alt="500x500" style="width: 500px; height: 500px;" src="photo/miagerukijineko171027_TP_V.jpg"
+          data-holder-rendered="true">
+      </div>
+    </div>
+    <!--- <hr class="featurette-divider"> ボーダー--->
+    <img src="photo/09.png" height="auto" width="80%" margin="0"
+      data-anijs="if:scroll,on:window,do:fadeInLeft animated, before:scrollReveal,after:removeAnim">
+    <div class="row featurette　test-animation"
+      data-anijs="if:scroll,on:window,do:rollIn animated, before:scrollReveal,after:removeAnim">
+      <div class="col-md-7 push-md-5">
+        <h2 class="featurette-heading">肉球だよりの<span class="text-muted">猫の様子</span></h2>
+        <p class="lead">保護団体、肉球だよりで過ごす猫ちゃんの様子をお届けします。ゆったりくつろいだり、じゃれあってる様子をライブでお届けいたします。<br>※猫なので、寝てる時間多めです！</p>
+      </div>
+      <div class="col-md-5 pull-md-7">
+        <!---動画はじめ-->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/48OJbbI0DfE" allowfullscreen></iframe>
+        </div>
+        <!---動画終わり-->
+        <!---  <img class="featurette-image img-fluid mx-auto image_add triming_o2img" data-src="photo/2978111054-cat-694730_1920-DJ5-1280x853-MM-100.jpg" alt="500x500" src="photo/2978111054-cat-694730_1920-DJ5-1280x853-MM-100.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;"> -->
+      </div>
+    </div>
+    <!---<hr class="featurette-divider"> ボーダー--->
+    <img src="photo/08.png" height="auto" width="100%" margin="0"
+      data-anijs="if:scroll,on:window,do:zoomInUp animated, before:scrollReveal,after:removeAnim">
+    <div class="row featurette 　test-animation"
+      data-anijs="if: scroll, on: window, do: rubberBand animated, before:scrollReveal,after:removeAnim">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">飼い主さんにお得な<span class="text-muted">耳寄り情報</span></h2>
+        <p class="lead">猫ちゃんのゴハンやトイレ用品などの生活必需品で、耳寄りな情報をAmazonや楽天などから集めました！</p>
+        <p><a class="btn btn-sm btn-outline-light" href="#" role="button"
+            data-anijs="if: mouseover, do: wobble animated">耳寄り情報を見る<img
+              src="photo/484d674a01c261b116609b71ef5c1e1e.jpg" height="auto" width="5%" margin="0"></a></p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto image_add" data-src="photo/nekohamita171027.jpg" alt="500x500"
+          src="photo/nekohamita171027.jpg.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+      </div>
+    </div>
+    <!---<hr class="featurette-divider"> ボーダー--->
+    <div class="row_border_stamp">
+      <p class="row_bottom_border" data-anijs="if: scroll, on: window,do: slideInRight animated">
+        <img src="photo/3f50864a665f8fbf97818cf51cd74f24.png" class="border_stamp" height="auto" width="50%"
+          margin="0"><img src="photo/3f50864a665f8fbf97818cf51cd74f24.png" class="border_stamp" height="auto"
+          width="50%" margin="0">
+      </p>
+    </div>
+    <!-- /END THE FEATURETTES -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="float-right" data-anijs="if: scroll, on: window,do: slideInRight animated"><a href="#">Back to top</a>
+      </p>
+      <p data-anijs="if: scroll, on: window,do: slideInLeft animated">© 2019 肉球だより, Inc. · <a href="#">プライバシー</a> · <a
+          href="#">チーム肉球だより</a></p>
+    </footer>
+
+  </div><!-- /.container -->
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./Visual Studio Code_files/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./Visual Studio Code_files/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="./Visual Studio Code_files/bootstrap.min.js"></script>
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <script src="./Visual Studio Code_files/holder.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./Visual Studio Code_files/ie10-viewport-bug-workaround.js"></script>
+
+  <script src="anijs-master/dist/anijs-min.js"></script>
+  <script src="anijs-master/dist/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+
+  <script type="text/javascript" src="./custom.js"></script>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none"
+    style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+    <defs>
+      <style type="text/css"></style>
+    </defs><text x="0" y="25"
+      style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text>
+  </svg>
+</body>
+</html>
